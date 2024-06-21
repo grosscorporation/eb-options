@@ -15,8 +15,7 @@ inputs:
         description: 'AWS Region'
         required: true
     role_to_assume:
-        description: 'Role to assume'
-        required: true        
+        description: 'Role to assume (Optional)'         
     aws_secret:
         description: 'Secret name'
         required: true
