@@ -1,0 +1,32 @@
+name: 'Elastic Beanstalk Options'
+description: 'Configure aws eb environment variables'
+author: 'Gross Corporation'
+runs:
+    using: 'node12'
+    main: 'env.js'
+inputs:
+    aws_access_key:
+        description: 'AWS Access Key'
+        required: true
+    aws_secret_key:
+        description: 'AWS Secret Key'
+        required: true
+    region:
+        description: 'AWS Region'
+        required: true
+    role_to_assume:
+        description: 'Role to assume'
+        required: true        
+    aws_secret:
+        description: 'Secret name'
+        required: true
+    application_name:
+        description: 'EB Application name'
+        required: true
+    environment_name:
+        description: 'EB Environment name'
+        required: true
+
+branding:
+    icon: 'arrow-up'
+    color: 'green'
