@@ -16,6 +16,8 @@ inputs:
         required: true
     role_to_assume:
         description: 'Role to assume (Optional)'         
+    aws_account_id:
+        description: 'AWS Account ID (Optional)'  
     aws_secret:
         description: 'Secret name'
         required: true
